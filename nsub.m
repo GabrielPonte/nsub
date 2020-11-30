@@ -7,7 +7,7 @@
 % and a vector C with r elements in the range (1:n), such that A(R,C) is a 
 % nonsingular submatrix of A.
 %
-% Note: If r>rank(A) nsub returs an error message. 
+% Note: If r>rank(A) nsub returns an error message. 
 %
 % Example:
 %   r = 3;
