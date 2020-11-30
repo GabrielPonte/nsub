@@ -1,8 +1,13 @@
 # nsub
-nsub is a matlab function that returns a non singular submatrix
+nsub    nonsingular submatrix
 
-[R,C] = nsub(A,r) returns r rows and columns that are linear independent
+Assuming that A is an m-by-n matrix and rank(A)>=r, [R] = nsub(A,r) returns a vector R with r elements in the range (1:m), such that the rows of A(R,:) are linear independent.
 
-[R,C,time] = nsub(A,r) returns r rows and columns that are linear independent with the elapsed time to run the algorithm
+[R,C] = nsub(A,r) returns a vector R with r elements in the range (1:m) and a vector C with r elements in the range (1:n), such that A(R,C) is a nonsingular submatrix of A.
 
-A(R,C) is a non singular submatrix of A
+Note: If r>rank(A) nsub returs an error message. 
+
+Example:
+   r = 3;
+   A = [-1 -1 1 0 -5; -1 -1 1 1 -5; 0 0 0 -1 0; 2 1 1 1 1];
+   [R,C] = nsub(A,r);
