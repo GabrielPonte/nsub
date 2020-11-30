@@ -106,8 +106,6 @@ function [R,C,time] = nsub(A,r)
                     y = L1\b;
 
                     alfa = U1\y;
-                    
-                    dbstop if warning %Alteracao v2
 
                     % Changing Ar
 
@@ -125,7 +123,7 @@ function [R,C,time] = nsub(A,r)
 
                             valueAlfa = local_alfa(iAlfa);
 
-                            if R(valueAlfa) <= r %Alteracao v2, nao tinha R no valueAlfa
+                            if R(valueAlfa) <= r
                                 
                                 local_alfa = valueAlfa; 
                                 flagAlfa = 1; 
@@ -146,7 +144,7 @@ function [R,C,time] = nsub(A,r)
 
                             countRi  = countRi + 1;
 
-                            flag_LSFI = 1; % Alteracao v2 acho que nao tinha antes
+                            flag_LSFI = 1;
                             
                             if countRi==r
                                 break
