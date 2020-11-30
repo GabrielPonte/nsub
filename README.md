@@ -5,7 +5,7 @@ Assuming that A is an m-by-n matrix and rank(A)>=r, [R] = nsub(A,r) returns a ve
 
 [R,C] = nsub(A,r) returns a vector R with r elements in the range (1:m) and a vector C with r elements in the range (1:n), such that A(R,C) is a nonsingular submatrix of A.
 
-Note: If r>rank(A) nsub returs an error message. 
+Note: If r>rank(A) nsub returns an error message. 
 
 Example:
    r = 3;
