@@ -24,7 +24,7 @@ function [R,C] = nsub(A,r)
     rankInit = rank(A,10^-6);
     
     if rankInit < r
-        fprintf(['\nRank(A) is less than  ', num2str(r),' please set r to be less than or equal to ', num2str(rankInit),'\n\n']);
+        fprintf(['\nRank(A) is less than ', num2str(r),' please set r to be less than or equal to ', num2str(rankInit),'\n\n']);
         R = [];
         C = [];
         time = toc;
