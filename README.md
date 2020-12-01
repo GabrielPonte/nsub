@@ -15,14 +15,19 @@ Note: If r>rank(A) nsub returns an error message.
 Example:
 
 r = 3;
+
 A = [-1 -1 1 1 -5; -1 -1 1 0 -5; 0 0 0 1 0; 2 1 1 1 1];
 
-Note: row3 = row1 - row2
+% Note: row3 = row1 - row2
 
 [R,C] = nsub(A,r);
 
-Result:
-   R = [2 4 1];
-   C = [5 1 4];
-   A(R,C) = [-5 1 0; 1 2 1; -5 -1 1];
-   rank(A(R,C)) = 3;
+% Result:
+
+   % R = [2 4 1];
+   
+   % C = [5 1 4];
+   
+   % A(R,C) = [-5 1 0; 1 2 1; -5 -1 1];
+   
+   % rank(A(R,C)) = 3;
