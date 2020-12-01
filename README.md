@@ -1,7 +1,4 @@
 # nsub
-
-Author of the code:  Gabriel Ponte. Collaborative work with:  Marcia Fampa, Jon Lee and Luze Xu.  Related work can be found in: https://arxiv.org/abs/2001.03732
-
 nsub    nonsingular submatrix
 
 Assuming that A is an m-by-n matrix and rank(A)>=r, [R] = nsub(A,r) returns a vector R with r elements in the range (1:m), such that the rows of A(R,:) are linear independent.
@@ -31,3 +28,7 @@ A = [-1 -1 1 1 -5; -1 -1 1 0 -5; 0 0 0 1 0; 2 1 1 1 1];
    % A(R,C) = [-5 1 0; 1 2 1; -5 -1 1];
    
    % rank(A(R,C)) = 3;
+   
+   
+Author of the code:  Gabriel Ponte. Collaborative work with:  Marcia Fampa, Jon Lee and Luze Xu.  Related work can be found in: https://arxiv.org/abs/2001.03732
+
