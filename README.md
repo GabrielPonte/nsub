@@ -1,6 +1,6 @@
 # nsub
 
-Authors of the code:  Gabriel Ponte, Marcia Fampa, Jon Lee and Luze Xu.  Description of the function can be found in: https://arxiv.org/abs/2001.03732
+Author of the code:  Gabriel Ponte. Collaborative work with:  Marcia Fampa, Jon Lee and Luze Xu.  Related work can be found in: https://arxiv.org/abs/2001.03732
 
 nsub    nonsingular submatrix
 
