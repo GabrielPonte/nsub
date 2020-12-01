@@ -10,7 +10,8 @@ Assuming that A is an m-by-n matrix and rank(A)>=r, [R] = nsub(A,r) returns a ve
 
 Note: If r>rank(A) nsub returns an error message.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 Example:
 
 r = 3;
